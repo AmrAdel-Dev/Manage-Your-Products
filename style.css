@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #001;
+    height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 50px;
+    color: #ffffff;
+}
+.form{
+    background-color: #112;
+    padding: 15px;
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+.form input{
+    background: #23233480;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 15px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+.form button{
+    background-color: #252550;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+    color: white;
+    cursor: pointer;
+    flex-basis: 30px;
+    flex-grow: 1;
+}
+#delBtn{
+    background-color: #b40000;
+}
+#clearBtn{
+    background-color: #ff0000;
+}
+.container{
+    margin-top: 70px;
+    width: 65%;
+    border-radius: 10px;
+    background-color: #11112280;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.container > div{
+    height: 50px;
+    width: calc(100% - 30px);
+    background-color: #23233480;
+    margin: 5px 0px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+}
+.nameArea{
+    width: 202px;
+    background: black;
+    padding: 0px 10px;
+    color: white;
+    font-size: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+}
+.typeArea{
+    width: 102px;
+    background: black;
+    padding: 0px 10px;
+    color: white;
+    font-size: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.amountArea{
+    width: 42px;
+    background: black;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.amountArea span{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+.priceArea{
+    width: 52px;
+    background: black;
+    padding: 0px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.priceArea span{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+#descArea{
+    width: 342px;
+    background: black;
+    padding: 0px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
